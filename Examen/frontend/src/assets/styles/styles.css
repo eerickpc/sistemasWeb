@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 200px 0 200px; /* arriba derecha abajo izq */
+    
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.header-links{        
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 30px;
+        li a{
+            text-decoration: none;
+            color: #143251;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+}
+
+
+.logo{
+    p{
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #143251;
+        font-weight: bold;
+    }
+}
+
+
+.button-agendar{
+    background-color: #143251;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+
+.main-screen{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.main-image{
+    width: 50%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+}
+
+.main-info{
+    width: 50%;
+    background-color: #EDF4FA;
+    margin: 0;
+}
+
+.info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 120px 20px 90px; /* arriba derecha abajo izq */
+    h2{
+        margin: 0;
+        font-size: 50px;
+        color:#143251;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .button-agendar{
+        width: 200px;
+    }
+}
+
+.small-text{
+    margin: 0;
+    font-size: 20px;
+    color: #143251;
+}
+
+.main-list{
+    ul{
+        padding: 0px;;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 80px;
+        color:#143251;
+        font-size: 20px;
+    }
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-titles{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: 35px;
+        margin: 0;
+        color: #143251;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{
+        color: #143251;
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
+.services-info{
+    display: flex;
+    flex-direction: row;
+    padding: 0 60px 0 60px;
+    ul{
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 20px;
+    }
+}
+
+.services-element{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.conocer-mas{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7290C6;
+    text-decoration: none;
+}
+
+.services-service{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#143251;
+    font-size: 20px;
+    margin: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.services-text{
+    margin: 0;
+}
